@@ -54,8 +54,8 @@ body {
   font-size: 4rem;
   font-weight: 1100;
   font-family: "Josefin Sans", sans-serif;
-  width:60%;
-  margin:auto;
+  width: 60%;
+  margin: auto;
 }
 .secondTitle {
   font-size: 2rem;
@@ -64,12 +64,12 @@ body {
 .thirdTitle {
   font-size: 1.2rem;
   font-weight: bold;
-  margin:10px 0px;
+  margin: 10px 0px;
 }
 .firstForm {
   margin-top: 1rem;
   text-align: center;
-  width:100vw !important;
+  width: 100vw !important;
 }
 .firstForm input {
   border: 0;
@@ -207,7 +207,7 @@ body {
   display: flex;
   flex-direction: column;
   margin-bottom: 20px;
-  margin-left:20%;
+  margin-left: 20%;
 }
 .nepal {
   margin-top: 20px;
@@ -219,30 +219,76 @@ a {
 a:hover {
   text-decoration: underline;
 }
-@media only screen and (max-width: 950px){
-  html{
-    font-size:12px;
+@media only screen and (max-width: 950px) {
+  html {
+    font-size: 12px;
   }
-  .thirdTitle{
-    margin:20px 0px;
+  .thirdTitle {
+    margin: 20px 0px;
   }
-  .flex1{
-    flex-direction:column;
+  .flex1 {
+    flex-direction: column;
     margin-top: 20px;
-    align-items:center;
-    margin-bottom:20px;
+    align-items: center;
+    margin-bottom: 20px;
   }
-  .secondPageDesc{
-    order:2;
-    text-align:center;
+  .secondPageDesc {
+    order: 2;
+    text-align: center;
   }
-  .firstImage{
-    order:1;
+  .firstImage {
+    order: 1;
   }
-  .thirdDesc{
-    width:100%;
-    text-align:center;
-    margin-left:auto;
-    margin-right:auto;
+  .thirdDesc {
+    width: 100%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media only screen and (max-width: 600px) {
+  html {
+    font-size: 12px;
+  }
+  .thirdTitle {
+    margin: 20px 0px;
+  }
+  .flex1 {
+    flex-direction: column;
+    margin-top: 20px;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .secondPageDesc {
+    order: 2;
+    text-align: center;
+  }
+  .firstImage {
+    order: 1;
+  }
+  .thirdDesc {
+    width: 100%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .getStarted {
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .fifthImg,
+  .sixthImg,
+  .seventhImg {
+    width: 100%;
+    height: auto;
+  }
+  .box{
+    width:90%;
+  }
+  .lastFlexInside{
+    display:grid;
+    grid-template-columns: 40% 40%;
   }
 }
