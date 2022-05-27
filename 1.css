@@ -298,6 +298,10 @@ a:hover {
   .box {
     width: 90%;
   }
+  .boxz{
+    height:auto;
+    text-align:left;
+  }
   .lastFlexInside {
     display: grid;
     grid-template-columns: 40% 40%;
