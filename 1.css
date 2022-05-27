@@ -161,6 +161,7 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+
 .emptySpace {
   height: 10px;
 }
@@ -169,7 +170,8 @@ body {
   justify-content: space-between;
   padding: 0 40px;
 }
-.info {
+.info,
+.infos {
   align-self: center;
   font-family: "Roboto", sans-serif;
   font-size: 1.5rem;
@@ -246,10 +248,15 @@ a:hover {
     margin-right: auto;
   }
 }
+.boxz {
+  height: auto;
+  padding: 20px 40px;
+  text-align: left;
+}
 @media only screen and (max-width: 600px) {
   html {
-    overflow-x:hidden;
     font-size: 12px;
+    overflow-x: hidden;
   }
   .thirdTitle {
     margin: 20px 0px;
@@ -285,11 +292,11 @@ a:hover {
     width: 90%;
     height: auto;
   }
-  .box{
-    width:90%;
+  .box {
+    width: 90%;
   }
-  .lastFlexInside{
-    display:grid;
+  .lastFlexInside {
+    display: grid;
     grid-template-columns: 40% 40%;
   }
 }
