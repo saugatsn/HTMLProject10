@@ -221,6 +221,9 @@ a {
 a:hover {
   text-decoration: underline;
 }
+.boxc:hover{
+  cursor: pointer;
+}
 @media only screen and (max-width: 950px) {
   html {
     font-size: 12px;
